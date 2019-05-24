@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70ED7755228E8A6C005E1BD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED7754228E8A6C005E1BD6 /* AppDelegate.m */; };
+		70ED7758228E8A6C005E1BD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED7757228E8A6C005E1BD6 /* ViewController.m */; };
+		70ED775B228E8A6C005E1BD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70ED7759228E8A6C005E1BD6 /* Main.storyboard */; };
+		70ED775D228E8A6E005E1BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70ED775C228E8A6E005E1BD6 /* Assets.xcassets */; };
+		70ED7760228E8A6E005E1BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70ED775E228E8A6E005E1BD6 /* LaunchScreen.storyboard */; };
+		70ED7763228E8A6E005E1BD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED7762228E8A6E005E1BD6 /* main.m */; };
+		70ED776D228E8A6E005E1BD6 /* wifDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED776C228E8A6E005E1BD6 /* wifDemoTests.m */; };
+		70ED7778228E8A6E005E1BD6 /* wifDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED7777228E8A6E005E1BD6 /* wifDemoUITests.m */; };
+		70ED77CC228E9936005E1BD6 /* Udpproxy2.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED77B7228E9936005E1BD6 /* Udpproxy2.m */; };
+		70ED77CD228E9936005E1BD6 /* hf-pmk-generator.c in Sources */ = {isa = PBXBuildFile; fileRef = 70ED77BB228E9936005E1BD6 /* hf-pmk-generator.c */; };
+		70ED77CE228E9936005E1BD6 /* HFSmartLinkDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED77BC228E9936005E1BD6 /* HFSmartLinkDeviceInfo.m */; };
+		70ED77CF228E9936005E1BD6 /* Udpproxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED77BD228E9936005E1BD6 /* Udpproxy.m */; };
+		70ED77D1228E9936005E1BD6 /* HFSmartLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED77C0228E9936005E1BD6 /* HFSmartLink.m */; };
+		70ED77D2228E9936005E1BD6 /* smartlinklib_7x.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ED77C7228E9936005E1BD6 /* smartlinklib_7x.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70ED7769228E8A6E005E1BD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70ED7748228E8A6C005E1BD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70ED774F228E8A6C005E1BD6;
+			remoteInfo = wifDemo;
+		};
+		70ED7774228E8A6E005E1BD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70ED7748228E8A6C005E1BD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70ED774F228E8A6C005E1BD6;
+			remoteInfo = wifDemo;
+		};
+		70ED77CA228E9936005E1BD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70ED77C3228E9936005E1BD6 /* smartlinklib_7x.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0018A8C1C0691BC00DCE703;
+			remoteInfo = smartlinklib_7x;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70ED7750228E8A6C005E1BD6 /* wifDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wifDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70ED7753228E8A6C005E1BD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70ED7754228E8A6C005E1BD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70ED7756228E8A6C005E1BD6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70ED7757228E8A6C005E1BD6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70ED775A228E8A6C005E1BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70ED775C228E8A6E005E1BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70ED775F228E8A6E005E1BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70ED7761228E8A6E005E1BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70ED7762228E8A6E005E1BD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70ED7768228E8A6E005E1BD6 /* wifDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wifDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70ED776C228E8A6E005E1BD6 /* wifDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wifDemoTests.m; sourceTree = "<group>"; };
+		70ED776E228E8A6E005E1BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70ED7773228E8A6E005E1BD6 /* wifDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wifDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70ED7777228E8A6E005E1BD6 /* wifDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wifDemoUITests.m; sourceTree = "<group>"; };
+		70ED7779228E8A6E005E1BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70ED77B7228E9936005E1BD6 /* Udpproxy2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Udpproxy2.m; sourceTree = "<group>"; };
+		70ED77B8228E9936005E1BD6 /* Udpproxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Udpproxy.h; sourceTree = "<group>"; };
+		70ED77BA228E9936005E1BD6 /* HFSmartLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSmartLink.h; sourceTree = "<group>"; };
+		70ED77BB228E9936005E1BD6 /* hf-pmk-generator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "hf-pmk-generator.c"; sourceTree = "<group>"; };
+		70ED77BC228E9936005E1BD6 /* HFSmartLinkDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSmartLinkDeviceInfo.m; sourceTree = "<group>"; };
+		70ED77BD228E9936005E1BD6 /* Udpproxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Udpproxy.m; sourceTree = "<group>"; };
+		70ED77BE228E9936005E1BD6 /* Udpproxy2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Udpproxy2.h; sourceTree = "<group>"; };
+		70ED77C0228E9936005E1BD6 /* HFSmartLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSmartLink.m; sourceTree = "<group>"; };
+		70ED77C1228E9936005E1BD6 /* HFSmartLinkDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSmartLinkDeviceInfo.h; sourceTree = "<group>"; };
+		70ED77C2228E9936005E1BD6 /* hf-pmk-generator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "hf-pmk-generator.h"; sourceTree = "<group>"; };
+		70ED77C3228E9936005E1BD6 /* smartlinklib_7x.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = smartlinklib_7x.xcodeproj; sourceTree = "<group>"; };
+		70ED77C7228E9936005E1BD6 /* smartlinklib_7x.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = smartlinklib_7x.m; sourceTree = "<group>"; };
+		70ED77C8228E9936005E1BD6 /* smartlinklib_7x.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smartlinklib_7x.h; sourceTree = "<group>"; };
+		70ED77D4228EA8BA005E1BD6 /* wifDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wifDemo.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70ED774D228E8A6C005E1BD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ED7765228E8A6E005E1BD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ED7770228E8A6E005E1BD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70ED7747228E8A6C005E1BD6 = {
+			isa = PBXGroup;
+			children = (
+				70ED7752228E8A6C005E1BD6 /* wifDemo */,
+				70ED776B228E8A6E005E1BD6 /* wifDemoTests */,
+				70ED7776228E8A6E005E1BD6 /* wifDemoUITests */,
+				70ED7751228E8A6C005E1BD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70ED7751228E8A6C005E1BD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70ED7750228E8A6C005E1BD6 /* wifDemo.app */,
+				70ED7768228E8A6E005E1BD6 /* wifDemoTests.xctest */,
+				70ED7773228E8A6E005E1BD6 /* wifDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70ED7752228E8A6C005E1BD6 /* wifDemo */ = {
+			isa = PBXGroup;
+			children = (
+				70ED77D4228EA8BA005E1BD6 /* wifDemo.entitlements */,
+				70ED7753228E8A6C005E1BD6 /* AppDelegate.h */,
+				70ED7754228E8A6C005E1BD6 /* AppDelegate.m */,
+				70ED7756228E8A6C005E1BD6 /* ViewController.h */,
+				70ED7757228E8A6C005E1BD6 /* ViewController.m */,
+				70ED7759228E8A6C005E1BD6 /* Main.storyboard */,
+				70ED775C228E8A6E005E1BD6 /* Assets.xcassets */,
+				70ED775E228E8A6E005E1BD6 /* LaunchScreen.storyboard */,
+				70ED7761228E8A6E005E1BD6 /* Info.plist */,
+				70ED7762228E8A6E005E1BD6 /* main.m */,
+				70ED77B5228E9936005E1BD6 /* smartlinklib_7x */,
+			);
+			path = wifDemo;
+			sourceTree = "<group>";
+		};
+		70ED776B228E8A6E005E1BD6 /* wifDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				70ED776C228E8A6E005E1BD6 /* wifDemoTests.m */,
+				70ED776E228E8A6E005E1BD6 /* Info.plist */,
+			);
+			path = wifDemoTests;
+			sourceTree = "<group>";
+		};
+		70ED7776228E8A6E005E1BD6 /* wifDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70ED7777228E8A6E005E1BD6 /* wifDemoUITests.m */,
+				70ED7779228E8A6E005E1BD6 /* Info.plist */,
+			);
+			path = wifDemoUITests;
+			sourceTree = "<group>";
+		};
+		70ED77B5228E9936005E1BD6 /* smartlinklib_7x */ = {
+			isa = PBXGroup;
+			children = (
+				70ED77B6228E9936005E1BD6 /* SmartLinkLib */,
+				70ED77C3228E9936005E1BD6 /* smartlinklib_7x.xcodeproj */,
+				70ED77C6228E9936005E1BD6 /* smartlinklib_7x */,
+			);
+			path = smartlinklib_7x;
+			sourceTree = "<group>";
+		};
+		70ED77B6228E9936005E1BD6 /* SmartLinkLib */ = {
+			isa = PBXGroup;
+			children = (
+				70ED77B7228E9936005E1BD6 /* Udpproxy2.m */,
+				70ED77B8228E9936005E1BD6 /* Udpproxy.h */,
+				70ED77BA228E9936005E1BD6 /* HFSmartLink.h */,
+				70ED77BB228E9936005E1BD6 /* hf-pmk-generator.c */,
+				70ED77BC228E9936005E1BD6 /* HFSmartLinkDeviceInfo.m */,
+				70ED77BD228E9936005E1BD6 /* Udpproxy.m */,
+				70ED77BE228E9936005E1BD6 /* Udpproxy2.h */,
+				70ED77C0228E9936005E1BD6 /* HFSmartLink.m */,
+				70ED77C1228E9936005E1BD6 /* HFSmartLinkDeviceInfo.h */,
+				70ED77C2228E9936005E1BD6 /* hf-pmk-generator.h */,
+			);
+			path = SmartLinkLib;
+			sourceTree = "<group>";
+		};
+		70ED77C4228E9936005E1BD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70ED77CB228E9936005E1BD6 /* libsmartlinklib_7x.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70ED77C6228E9936005E1BD6 /* smartlinklib_7x */ = {
+			isa = PBXGroup;
+			children = (
+				70ED77C7228E9936005E1BD6 /* smartlinklib_7x.m */,
+				70ED77C8228E9936005E1BD6 /* smartlinklib_7x.h */,
+			);
+			path = smartlinklib_7x;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70ED774F228E8A6C005E1BD6 /* wifDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70ED777C228E8A6E005E1BD6 /* Build configuration list for PBXNativeTarget "wifDemo" */;
+			buildPhases = (
+				70ED774C228E8A6C005E1BD6 /* Sources */,
+				70ED774D228E8A6C005E1BD6 /* Frameworks */,
+				70ED774E228E8A6C005E1BD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wifDemo;
+			productName = wifDemo;
+			productReference = 70ED7750228E8A6C005E1BD6 /* wifDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70ED7767228E8A6E005E1BD6 /* wifDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70ED777F228E8A6E005E1BD6 /* Build configuration list for PBXNativeTarget "wifDemoTests" */;
+			buildPhases = (
+				70ED7764228E8A6E005E1BD6 /* Sources */,
+				70ED7765228E8A6E005E1BD6 /* Frameworks */,
+				70ED7766228E8A6E005E1BD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70ED776A228E8A6E005E1BD6 /* PBXTargetDependency */,
+			);
+			name = wifDemoTests;
+			productName = wifDemoTests;
+			productReference = 70ED7768228E8A6E005E1BD6 /* wifDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70ED7772228E8A6E005E1BD6 /* wifDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70ED7782228E8A6E005E1BD6 /* Build configuration list for PBXNativeTarget "wifDemoUITests" */;
+			buildPhases = (
+				70ED776F228E8A6E005E1BD6 /* Sources */,
+				70ED7770228E8A6E005E1BD6 /* Frameworks */,
+				70ED7771228E8A6E005E1BD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70ED7775228E8A6E005E1BD6 /* PBXTargetDependency */,
+			);
+			name = wifDemoUITests;
+			productName = wifDemoUITests;
+			productReference = 70ED7773228E8A6E005E1BD6 /* wifDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70ED7748228E8A6C005E1BD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "liu zixuan";
+				TargetAttributes = {
+					70ED774F228E8A6C005E1BD6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 1;
+							};
+						};
+					};
+					70ED7767228E8A6E005E1BD6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 70ED774F228E8A6C005E1BD6;
+					};
+					70ED7772228E8A6E005E1BD6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 70ED774F228E8A6C005E1BD6;
+					};
+				};
+			};
+			buildConfigurationList = 70ED774B228E8A6C005E1BD6 /* Build configuration list for PBXProject "wifDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70ED7747228E8A6C005E1BD6;
+			productRefGroup = 70ED7751228E8A6C005E1BD6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 70ED77C4228E9936005E1BD6 /* Products */;
+					ProjectRef = 70ED77C3228E9936005E1BD6 /* smartlinklib_7x.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				70ED774F228E8A6C005E1BD6 /* wifDemo */,
+				70ED7767228E8A6E005E1BD6 /* wifDemoTests */,
+				70ED7772228E8A6E005E1BD6 /* wifDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		70ED77CB228E9936005E1BD6 /* libsmartlinklib_7x.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libsmartlinklib_7x.a;
+			remoteRef = 70ED77CA228E9936005E1BD6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70ED774E228E8A6C005E1BD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ED7760228E8A6E005E1BD6 /* LaunchScreen.storyboard in Resources */,
+				70ED775D228E8A6E005E1BD6 /* Assets.xcassets in Resources */,
+				70ED775B228E8A6C005E1BD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ED7766228E8A6E005E1BD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ED7771228E8A6E005E1BD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70ED774C228E8A6C005E1BD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ED7758228E8A6C005E1BD6 /* ViewController.m in Sources */,
+				70ED7763228E8A6E005E1BD6 /* main.m in Sources */,
+				70ED7755228E8A6C005E1BD6 /* AppDelegate.m in Sources */,
+				70ED77D1228E9936005E1BD6 /* HFSmartLink.m in Sources */,
+				70ED77D2228E9936005E1BD6 /* smartlinklib_7x.m in Sources */,
+				70ED77CD228E9936005E1BD6 /* hf-pmk-generator.c in Sources */,
+				70ED77CC228E9936005E1BD6 /* Udpproxy2.m in Sources */,
+				70ED77CE228E9936005E1BD6 /* HFSmartLinkDeviceInfo.m in Sources */,
+				70ED77CF228E9936005E1BD6 /* Udpproxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ED7764228E8A6E005E1BD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ED776D228E8A6E005E1BD6 /* wifDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ED776F228E8A6E005E1BD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ED7778228E8A6E005E1BD6 /* wifDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70ED776A228E8A6E005E1BD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70ED774F228E8A6C005E1BD6 /* wifDemo */;
+			targetProxy = 70ED7769228E8A6E005E1BD6 /* PBXContainerItemProxy */;
+		};
+		70ED7775228E8A6E005E1BD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70ED774F228E8A6C005E1BD6 /* wifDemo */;
+			targetProxy = 70ED7774228E8A6E005E1BD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70ED7759228E8A6C005E1BD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70ED775A228E8A6C005E1BD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70ED775E228E8A6E005E1BD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70ED775F228E8A6E005E1BD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70ED777A228E8A6E005E1BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70ED777B228E8A6E005E1BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70ED777D228E8A6E005E1BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = wifDemo/wifDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3VXXCCC84;
+				INFOPLIST_FILE = wifDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.boe.mall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70ED777E228E8A6E005E1BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = wifDemo/wifDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3VXXCCC84;
+				INFOPLIST_FILE = wifDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.boe.mall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70ED7780228E8A6E005E1BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wifDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zixuan.wifDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wifDemo.app/wifDemo";
+			};
+			name = Debug;
+		};
+		70ED7781228E8A6E005E1BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wifDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zixuan.wifDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wifDemo.app/wifDemo";
+			};
+			name = Release;
+		};
+		70ED7783228E8A6E005E1BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wifDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zixuan.wifDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wifDemo;
+			};
+			name = Debug;
+		};
+		70ED7784228E8A6E005E1BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wifDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zixuan.wifDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wifDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70ED774B228E8A6C005E1BD6 /* Build configuration list for PBXProject "wifDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70ED777A228E8A6E005E1BD6 /* Debug */,
+				70ED777B228E8A6E005E1BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70ED777C228E8A6E005E1BD6 /* Build configuration list for PBXNativeTarget "wifDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70ED777D228E8A6E005E1BD6 /* Debug */,
+				70ED777E228E8A6E005E1BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70ED777F228E8A6E005E1BD6 /* Build configuration list for PBXNativeTarget "wifDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70ED7780228E8A6E005E1BD6 /* Debug */,
+				70ED7781228E8A6E005E1BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70ED7782228E8A6E005E1BD6 /* Build configuration list for PBXNativeTarget "wifDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70ED7783228E8A6E005E1BD6 /* Debug */,
+				70ED7784228E8A6E005E1BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70ED7748228E8A6C005E1BD6 /* Project object */;
+}
